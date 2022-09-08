@@ -1,16 +1,16 @@
 {
-  "name": "style-dictionary-example-complete",
+  "name": "design-tokens",
   "version": "1.0.0",
-  "description": "",
-  "main": "build.js",
+  "description": "Design tokens to be used in CU projects.",
+  "main": "index.js",
+  "repository": "git@github.com:CUCentralAdvancement/design-tokens.git",
+  "author": "Alex Finnarn <alex.finnarn@gmail.com>",
+  "license": "MIT",
   "scripts": {
-    "build": "node_modules/.bin/style-dictionary build",
-    "clean": "rm -rf build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "styles:build": "style-dictionary build",
+    "styles:init": "style-dictionary init"
   },
-  "author": "",
-  "license": "Apache-2.0",
-  "devDependencies": {
-    "style-dictionary": "latest"
+  "dependencies": {
+    "style-dictionary": "^3.7.1"
   }
 }
