@@ -1,7 +1,15 @@
 # Central Advancement Design Tokens
 
 It is now a best practice to invest in a design system for teams building and maintaining several web 
-properties. Beyond the web, design teams have even extrapolated 
+properties. Beyond the web, design teams have even extrapolated...
+
+## More Setup
+
+The guide at https://support.invisionappcom/hc/en-us/articles/360049950151-The-Design-Tokens-Practice 
+is being followed. 
+
+The Style Dictionary project was chosen to be the build tool:
+https://amzn.github.io/style-dictionary/#/README
 
 ## History
 
