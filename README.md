@@ -1,17 +1,41 @@
-# Style Dictionary Complete Example
+# Central Advancement Design Tokens
 
-This starter project has everything you need to get started. 
+It is now a best practice to invest in a design system for teams building and maintaining several web 
+properties. Beyond the web, design teams have even extrapolated 
 
-## How it works
+## History
 
-All of the design tokens and assets are in this package. Make any changes to suit your needs. This package has iOS, Android, and web code.
+...something with Salesforce and their Lightning Design System.
 
-To get started, run
+## Main components
+
+- Typography - The font style, font weights, line height, and other typographic properties.
+- Colors - The color palette representing the brand of Central Advancement.
+- Spacing - The spacing between elements used in padding, margins, breakpoints, and other layout 
+  properties.
+- Borders - The border properties for elements.
+- Shadows - The shadow properties for elements.
+- Animations - The animation properties for elements.s
+- Variants - The variant properties for design components. These are used to change the appearance of 
+  components based on the context of the page and user interaction.
+
+## Actual Design Tokens
+
+Design tokens are commonly exported in either YAML or JSON formats. We will provide both.
+
+- YAML - ...
+- JSON - ...
+
+## Applying Design Tokens
+
+- [Using the JSON format](#using-the-json-format) - this example shows how to use the JSON format on 
+  a simple website.
+
+### Using the JSON format
+
+We will take the JSON design token file and generate a CSS file that can be used on a website.
+
+```bash
+yarn gen:css
 ```
-$ npm install
-$ npm run build
-```
 
-The npm build task is what performs the style dictionary build steps to generate the files for each platform. Every time you change something in the style dictionary, like changing colors or adding design tokens, you will have to run this command again to generate the files.
-
-## iOS
